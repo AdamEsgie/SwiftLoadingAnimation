@@ -11,7 +11,8 @@
 		CA4A5E14194552ED0003740A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4A5E13194552ED0003740A /* ViewController.swift */; };
 		CA4A5E19194552ED0003740A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA4A5E18194552ED0003740A /* Images.xcassets */; };
 		CA4A5E25194552ED0003740A /* LoadingAnimationSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4A5E24194552ED0003740A /* LoadingAnimationSwiftTests.swift */; };
-		CA5EB42219F5A370003F8398 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5EB42119F5A370003F8398 /* LoadingView.swift */; };
+		CA67075E1A0D6998007243B8 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA67075D1A0D6998007243B8 /* LoadingView.swift */; };
+		CA67075F1A0D6998007243B8 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA67075D1A0D6998007243B8 /* LoadingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,7 +34,7 @@
 		CA4A5E1E194552ED0003740A /* LoadingAnimationSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoadingAnimationSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA4A5E23194552ED0003740A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CA4A5E24194552ED0003740A /* LoadingAnimationSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingAnimationSwiftTests.swift; sourceTree = "<group>"; };
-		CA5EB42119F5A370003F8398 /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		CA67075D1A0D6998007243B8 /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +58,7 @@
 		CA4A5E03194552EC0003740A = {
 			isa = PBXGroup;
 			children = (
+				CA67075C1A0D6998007243B8 /* LoadingAnimation */,
 				CA4A5E0E194552EC0003740A /* LoadingAnimationSwift */,
 				CA4A5E21194552ED0003740A /* LoadingAnimationSwiftTests */,
 				CA4A5E0D194552EC0003740A /* Products */,
@@ -77,7 +79,6 @@
 			children = (
 				CA4A5E11194552EC0003740A /* AppDelegate.swift */,
 				CA4A5E13194552ED0003740A /* ViewController.swift */,
-				CA5EB42119F5A370003F8398 /* LoadingView.swift */,
 				CA4A5E18194552ED0003740A /* Images.xcassets */,
 				CA4A5E0F194552EC0003740A /* Supporting Files */,
 			);
@@ -107,6 +108,14 @@
 				CA4A5E23194552ED0003740A /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CA67075C1A0D6998007243B8 /* LoadingAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				CA67075D1A0D6998007243B8 /* LoadingView.swift */,
+			);
+			path = LoadingAnimation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -209,7 +218,7 @@
 			files = (
 				CA4A5E14194552ED0003740A /* ViewController.swift in Sources */,
 				CA4A5E12194552EC0003740A /* AppDelegate.swift in Sources */,
-				CA5EB42219F5A370003F8398 /* LoadingView.swift in Sources */,
+				CA67075E1A0D6998007243B8 /* LoadingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,6 +227,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA4A5E25194552ED0003740A /* LoadingAnimationSwiftTests.swift in Sources */,
+				CA67075F1A0D6998007243B8 /* LoadingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
