@@ -13,33 +13,31 @@ The library allows for customization of the size, color, speed of the animation/
 
 1) Download or clone the repo
 
-2) Add the LoadAnimationLibrary folder to your project
-
-3) Import the LoadingView.h into the appropriate location
+2) Add the LoadAnimation folder to your project
 
 3) Initialize the object and set the circle size
 
-    LoadingView *loading = [[LoadingView alloc] initWithCircleSize:6.0f];
+    var loading = LoadingView()
     
 4) Add the object to a view in the desired position
 
-    [loading showInView:self.view withCenterPoint:CGPointMake(self.size.width/2, self.size.height/2)];
+    loading.showAtCenterPointWithSize(CGPoint:CGSize:)
     
 5) If you desire opacity, specify starting #
 
-    [loading addStartingOpacity:0.5];
+    loading.addStartingOpacity(CGFloat)
 
 6) When ready, begin animation
 
-    [loading startAnimating];
+    loading.startLoading()
     
 7) When ready, end animation
 
-    [loading stopAnimating];
+    loading.stopLoading()
     
 8) Hide/Show as desired
 
-    [loading hide];
+    loading.hide()
     
 # Credits:
 Props to [Matt Yu](http://www.mattyu.ca/) for design.  This was created as a part of the [Birdseye Mail](http://www.birdseyemail.com/) email project.
